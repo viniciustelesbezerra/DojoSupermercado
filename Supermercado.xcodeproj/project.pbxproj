@@ -378,7 +378,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supermercado/Supermercado-Prefix.pch";
 				INFOPLIST_FILE = "Supermercado/Supermercado-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,7 +391,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supermercado/Supermercado-Prefix.pch";
 				INFOPLIST_FILE = "Supermercado/Supermercado-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +451,7 @@
 				5E5C2A4916724D0500DA42EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E5C2A4A16724D0500DA42EE /* Build configuration list for PBXNativeTarget "SupermercadoTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				5E5C2A4C16724D0500DA42EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "ViewController.h"
 
-@interface SupermercadoTests : SenTestCase
+@interface SupermercadoTests : SenTestCase {
+    ViewController * myViewController;
+}
 
 @end
